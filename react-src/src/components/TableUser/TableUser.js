@@ -13,9 +13,8 @@ alert(users)
     users = users.map((user) => 
       <Table.Row key={user._id}>
         <Table.Cell>{user}</Table.Cell>
-        <Table.Cell>{user.email}</Table.Cell>
+        <Table.Cell>{user}</Table.Cell>
         <Table.Cell>{user.age}</Table.Cell>
-        <Table.Cell>{user.gender}</Table.Cell>
         <Table.Cell>
           <ModalUser
             headerTitle='Edit User'
