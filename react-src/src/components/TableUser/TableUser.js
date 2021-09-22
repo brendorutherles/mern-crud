@@ -9,7 +9,7 @@ class TableUser extends Component {
   render() {
 
     let users = this.props.users;
-
+alert(users)
     users = users.map((user) => 
       <Table.Row key={user._id}>
         <Table.Cell>{user.name}</Table.Cell>
